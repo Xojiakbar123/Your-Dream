@@ -58,3 +58,9 @@
         margin-top: 140px;
     }
 }
+@media (max-width: 767px){
+    .main-list{
+        display: flex;
+        flex-direction: column;
+    }
+}
