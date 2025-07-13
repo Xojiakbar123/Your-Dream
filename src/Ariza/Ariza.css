@@ -1,0 +1,19 @@
+
+.ariza-btn{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid cornflowerblue;
+    color: white;
+}
+.ariza-btn:hover{
+    color: cornflowerblue;
+    background-color: white;
+    transition: .5s;
+}
+.ariza-btn:active{
+    background-color: rgb(161, 187, 235);
+    color: white;
+}

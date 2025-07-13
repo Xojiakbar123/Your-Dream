@@ -1,0 +1,114 @@
+
+.header{
+    padding: 30px 20px;
+    box-shadow: 0 6px 12px rgba(59, 130, 246, 0.5);
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+.header-img{
+    width: 50px;
+    border-radius: 50%;
+}
+.logo-title{
+    font-size: 20px;
+    color: cornflowerblue;
+}
+.header-logo-link{
+    display: flex;
+    width: 185px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-link{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    border-bottom: 3px solid cornflowerblue;
+}
+.header-link:active{
+    color: cornflowerblue;
+}
+#lng{
+    font-size: 20px;
+}
+.header-item:nth-child(2){
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu,
+.close{
+    display: none ;
+    cursor: pointer;
+    position: absolute;
+    top: 35px;
+    right: 15px;
+    z-index: 1100;
+}
+.mobile-menu{
+    display: none;
+}
+
+
+
+
+@media (max-width: 853px){
+    .header-link{
+        display: none;
+        font-size: 15px;
+    }
+    .header-item:nth-child(2){
+        display: flex;
+        width: 100%;
+        justify-content: end;
+        gap: 20px;
+        padding-right: 15px;
+    }.menu,
+    .close{
+        display: block ;
+        font-size:35px;
+        color: cornflowerblue;
+    }
+    .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100vh;
+    background-color: white;
+    padding: 40px 20px;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    padding-top: 80px;
+    }
+    .mobile-menu.active {
+    right: 0;
+    }
+    .menu-link{
+        font-size: 16px;
+        color: black;
+        padding: 10px;
+        border-bottom: 3px solid cornflowerblue;
+    }
+
+
+    
+}
+
+

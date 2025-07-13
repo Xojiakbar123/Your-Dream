@@ -1,0 +1,25 @@
+
+
+
+.adress{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    scroll-margin-top: 210px;
+}
+.adress-title{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.map{
+    width: 100%;
+    height: 400px;
+}
+.adress-text{
+    font-size: 20px;
+    color: grey;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
