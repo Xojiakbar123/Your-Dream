@@ -64,7 +64,7 @@
 
 
 
-@media (max-width: 853px){
+@media (max-width: 880px){
     .header-link{
         display: none;
         font-size: 15px;
@@ -109,6 +109,21 @@
 
 
     
+}
+
+
+@media(max-width: 767px){
+    .header-btn{
+        display: none;
+    }
+}
+@media(max-width: 400px){
+    .logo-title{
+        font-size: 15px;
+    }
+    .header-logo-link{
+        width: 150px;
+    }
 }
 
 

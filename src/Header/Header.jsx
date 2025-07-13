@@ -44,7 +44,7 @@ export default function Header(){
                             <option value="en">English</option>
                             <option value="ru">Русский</option>
                         </select>
-                        <Ariza/>
+                        <div className="header-btn"><Ariza/></div>
                         <nav>
                             {
                                 toogleControl ? <RiMenuFill onClick={()=> setToogleControl(false)} className="menu" /> : <IoClose className="close" onClick={()=>setToogleControl(true)}/>
